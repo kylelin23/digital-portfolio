@@ -24,10 +24,26 @@ The first step is to fork this repository. Forking allows you to copy someone el
 - Press `Open` and select the project folder (the name should be your-username.github.io)
 
 ### Add HTML Elements
-- Add a div, heading, and paragraph element
+HTML elements are the building blocks of the webpage. Each one is a piece of content on the page. 
+They consist of an opening tag, the content, and the closing tag. The tags describe what type of element is being displayed, while the content is what is inside the element. 
+- Add a heading element
+
+`<h6>Heading Name</h6>`
+
+In this example, the opening tag is `<h6>`, the content is `Heading Name`, and the closing tag is `</h6>`. 
+
+- Add a paragraph element
+
+`<p>Here is a little bit about me! </p>`
+
+- Add an image element (Note: image tags are special because they are self-closing)
+
+`<img src = "images/cal-poly-logo.png" width = "100"/>`
+
+- src and width are attributes, meaning that they give extra information about the element. src provides the file path to the image, while width provides the width of the image in pixels. I have added an image in the `images` folder for you to add to your website. 
 
 ### Add CSS Styling
-- Add font size, color, and margins
+CSS adds style to your elements. 
 
 ## 3. Add the Projects Page
 ### Add Project List
